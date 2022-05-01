@@ -1,12 +1,11 @@
 public class BmiService {
 
-    public double calulate (int weight, double hight) {
+    public double calculate(int weight, double hight) {
 
-       double calculate = weight / Math.pow(hight,2);
+        double calculate = weight / Math.pow(hight, 2);
 
-       return calculate;
+        return calculate;
 
-        //System.out.println("Индекс массы тела = " + calculate);
     }
 
 }
